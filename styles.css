@@ -1,7 +1,7 @@
+/* === BODY & BACKGROUND === */
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
   background-image: url('images/background.jpg');
   background-size: cover;
   background-position: center;
@@ -9,7 +9,7 @@ body {
   color: white;
 }
 
-/* Navbar */
+/* === NAVIGATION BAR === */
 .nav {
   display: flex;
   justify-content: space-between;
@@ -20,17 +20,18 @@ body {
 
 .name {
   font-size: 20px;
-  font-family: 'Poppins', serif;
+  font-family: 'Cinzel Decorative', serif;
   letter-spacing: 2px;
 }
 
 .menu a {
+  font-family: 'Economica', sans-serif;
   color: white;
   text-decoration: none;
   margin: 0 12px;
 }
 
-/* Hero Layout */
+/* === HERO SECTION === */
 .hero {
   display: flex;
   justify-content: center;
@@ -39,7 +40,7 @@ body {
   padding: 0 60px;
 }
 
-/* Profile image wrapper */
+/* === PROFILE IMAGE === */
 .image-container {
   width: 320px;
   height: 320px;
@@ -60,33 +61,40 @@ body {
   filter: grayscale(100%);
 }
 
-/* Intro text */
+/* === TEXT BLOCK === */
 .intro {
   text-align: left;
   max-width: 600px;
 }
 
-.intro p {
-  font-size: 22px;
+/* Hi There!, I'm */
+.hello {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 24px;
   margin: 0;
   letter-spacing: 1px;
 }
 
+/* Chanakya */
 .intro h1 {
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Dancing Script', cursive;
   font-size: 76px;
   margin: 10px 0 5px;
   line-height: 1.2;
 }
 
+/* Chaa - nakh - kyaa */
 .pronounce {
+  font-family: 'Economica', sans-serif;
   font-size: 16px;
   font-style: italic;
   margin-bottom: 20px;
   display: inline-block;
 }
 
+/* DATA SCIENTIST */
 .intro h2 {
+  font-family: 'Space Mono', monospace;
   font-size: 56px;
   font-weight: 700;
   text-transform: uppercase;
