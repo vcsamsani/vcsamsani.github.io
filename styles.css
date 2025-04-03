@@ -1,94 +1,95 @@
-/* GENERAL STYLING */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  background-image: url('images/background.jpg'); /* Use .png if needed */
+  background-image: url('images/background.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-  text-align: center;
 }
 
-/* NAVIGATION BAR */
+/* Navbar */
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 50px;
+  padding: 30px 60px;
   font-size: 14px;
 }
 
 .name {
-  font-size: 18px;
+  font-size: 20px;
+  font-family: 'Poppins', serif;
   letter-spacing: 2px;
 }
 
 .menu a {
   color: white;
   text-decoration: none;
-  margin: 0 10px;
+  margin: 0 12px;
 }
 
-/* HERO SECTION */
+/* Hero Layout */
 .hero {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 80px 40px;
-  height: calc(100vh - 100px);
+  height: 80vh;
+  padding: 0 60px;
 }
 
-/* IMAGE CONTAINER */
+/* Profile image wrapper */
 .image-container {
-  width: 280px;
-  height: 280px;
+  width: 320px;
+  height: 320px;
   border-radius: 50%;
   background-color: #f9d44c;
+  overflow: hidden;
+  margin-right: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
-  margin-right: 60px;
-  flex-shrink: 0;
 }
 
 .image-container img {
-  width: 100%;
+  width: auto;
   height: 100%;
-  object-fit: cover;
-  filter: grayscale(100%);
+  object-fit: contain;
   border-radius: 50%;
+  filter: grayscale(100%);
 }
 
-/* INTRO TEXT */
+/* Intro text */
 .intro {
   text-align: left;
   max-width: 600px;
 }
 
 .intro p {
-  font-size: 20px;
+  font-size: 22px;
   margin: 0;
+  letter-spacing: 1px;
 }
 
 .intro h1 {
   font-family: 'Great Vibes', cursive;
-  font-size: 72px;
+  font-size: 76px;
   margin: 10px 0 5px;
+  line-height: 1.2;
 }
 
 .pronounce {
   font-size: 16px;
   font-style: italic;
-  display: block;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  display: inline-block;
 }
 
 .intro h2 {
-  font-size: 48px;
-  letter-spacing: 6px;
-  line-height: 1.2;
-  font-weight: bold;
+  font-size: 56px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  line-height: 1.3;
 }
