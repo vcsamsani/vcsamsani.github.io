@@ -50,14 +50,14 @@ body {
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end; /* Align image to bottom */
   flex-shrink: 0;
 }
 
 .image-container img {
-  width: 100%;
+  width: auto;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 50%;
   filter: grayscale(100%);
 }
@@ -71,10 +71,8 @@ body {
 /* Hi There!, I'm */
 .hello {
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 32px;
-  letter-spacing: 1px;
+  font-size: 28px;
   margin: 0 0 10px;
-  text-transform: uppercase;
 }
 
 /* Chanakya */
@@ -90,18 +88,23 @@ body {
   font-family: 'Economica', sans-serif;
   font-size: 18px;
   font-style: italic;
-  margin: 10px 0 30px;
+  margin: 10px 0 25px;
   display: inline-block;
 }
 
-/* DATA SCIENTIST */
-.intro h2 {
+/* DATA / SCIENTIST */
+.title {
+  text-align: center;
+}
+
+.role-line {
   font-family: 'Space Mono', monospace;
-  font-size: 60px;
+  font-size: 56px;
   font-weight: 900;
-  letter-spacing: 14px;
   text-transform: uppercase;
-  color: white;
+  letter-spacing: 14px;
+  margin: 0;
+  color: transparent;
   -webkit-text-stroke: 1.2px white;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
