@@ -38,6 +38,7 @@ body {
   align-items: center;
   padding: 0 60px;
   height: 90vh;
+  gap: 40px;
 }
 
 /* === PROFILE IMAGE === */
@@ -47,7 +48,6 @@ body {
   border-radius: 50%;
   background-color: #f9d44c;
   overflow: hidden;
-  margin-right: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,9 +55,9 @@ body {
 }
 
 .image-container img {
-  width: auto;
+  width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 50%;
   filter: grayscale(100%);
 }
