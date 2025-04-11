@@ -34,9 +34,9 @@ body {
 /* === HERO SECTION === */
 .hero {
   display: flex;
-  justify-content: flex-start; /* Left-align both image and text */
+  justify-content: flex-start;
   align-items: center;
-  padding: 0 60px;
+  padding: 0 40px; /* reduced right/left padding slightly */
   height: 90vh;
   gap: 40px;
 }
@@ -52,7 +52,7 @@ body {
   justify-content: center;
   align-items: flex-end;
   flex-shrink: 0;
-  margin-left: -60px; /* Pull yellow circle all the way left beyond padding */
+  margin-left: 30px; /* gives a gap from extreme left */
 }
 
 /* === PROFILE IMAGE === */
