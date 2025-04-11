@@ -36,41 +36,42 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding: 0 80px;
+  padding: 0 40px;
   height: 90vh;
-  gap: 60px;
+  gap: 50px;
 }
 
-/* === PROFILE IMAGE CONTAINER === */
+/* === PROFILE IMAGE CONTAINER (Yellow Circle) === */
 .image-container {
-  width: 420px;
-  height: 420px;
+  width: 390px;
+  height: 390px;
   border-radius: 50%;
   background-color: #f9d44c;
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   flex-shrink: 0;
-  margin-left: 0; /* No pull or push */
+  margin-left: 30px;
 }
 
 /* === PROFILE IMAGE === */
 .image-container img {
-  width: auto;
-  height: 96%;
-  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: 10px;  /* nudges face downward */
   border-radius: 50%;
   filter: grayscale(100%);
 }
 
-/* === TEXT BLOCK === */
+/* === INTRO TEXT BLOCK === */
 .intro {
   text-align: left;
   max-width: 600px;
 }
 
-/* Hi There!, I’m */
+/* "Hi There!, I'm" */
 .hello {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 32px;
@@ -78,7 +79,7 @@ body {
   text-transform: none;
 }
 
-/* Chanakya */
+/* "Chanakya" */
 .intro h1 {
   font-family: 'Dancing Script', cursive;
   font-size: 90px;
@@ -95,7 +96,7 @@ body {
   display: inline-block;
 }
 
-/* DATA SCIENTIST */
+/* "DATA SCIENTIST" */
 .title {
   text-align: left;
   margin-top: -10px;
