@@ -34,11 +34,11 @@ body {
 /* === HERO SECTION === */
 .hero {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   padding: 0 60px;
   height: 90vh;
-  gap: 20px; /* Tighten spacing between image and text */
+  gap: 100px; /* Tighten spacing between image and text */
 }
 
 /* === PROFILE IMAGE CONTAINER (Yellow Circle) === */
