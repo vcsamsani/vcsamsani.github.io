@@ -43,16 +43,16 @@ body {
 
 /* === PROFILE IMAGE CONTAINER (Yellow Circle) === */
 .image-container {
-  width: 420px;
+  width: 480px;     /* ⬅️ wider than height = ellipse effect */
   height: 420px;
-  border-radius: 50%;
+  border-radius: 50%; /* still gives rounded oval */
   background-color: #f9d44c;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: flex-end;
   flex-shrink: 0;
-  margin-left: -60px; /* Pull yellow circle all the way left beyond padding */
+  margin-left: -60px;
 }
 
 /* === PROFILE IMAGE === */
