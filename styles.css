@@ -43,8 +43,8 @@ body {
 
 /* === PROFILE IMAGE CONTAINER (Yellow Circle) === */
 .image-container {
-  width: 1000px; /* Increased circle size */
-  height: 1000px;
+  width: 500px; /* Increased circle size */
+  height: 500px;
   border-radius: 50%;
   background-color: #f9d44c;
   overflow: hidden;
@@ -52,7 +52,7 @@ body {
   justify-content: center;
   align-items: flex-end; /* Bottom-align the image */
   flex-shrink: 0;
-  margin-right: -200px; /* Pull the circle slightly to the left */
+  margin-right: -20px; /* Pull the circle slightly to the left */
 }
 
 /* === PROFILE IMAGE === */
