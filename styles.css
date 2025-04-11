@@ -38,23 +38,24 @@ body {
   align-items: center;
   padding: 0 60px;
   height: 90vh;
-  gap: 30px;
+  gap: 20px; /* Tighten spacing between image and text */
 }
 
-/* === PROFILE IMAGE === */
+/* === PROFILE IMAGE CONTAINER (Yellow Circle) === */
 .image-container {
-  width: 380px;
-  height: 380px;
+  width: 420px; /* Increased circle size */
+  height: 420px;
   border-radius: 50%;
   background-color: #f9d44c;
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: flex-end; /* Bottom-align the image */
   flex-shrink: 0;
-  margin-bottom: 10px;
+  margin-right: -20px; /* Pull the circle slightly to the left */
 }
 
+/* === PROFILE IMAGE === */
 .image-container img {
   width: auto;
   height: 96%;
@@ -74,7 +75,7 @@ body {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 28px;
   margin: 0 0 10px;
-  text-transform: none;
+  text-transform: none; /* Sentence case */
 }
 
 /* "Chanakya" */
@@ -94,10 +95,10 @@ body {
   display: inline-block;
 }
 
-/* "DATA SCIENTIST" */
+/* "DATA SCIENTIST" Block */
 .title {
   text-align: center;
-  margin-top: -10px;
+  margin-top: -10px; /* Nudge upward */
 }
 
 .role-line {
