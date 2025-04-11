@@ -34,25 +34,25 @@ body {
 /* === HERO SECTION === */
 .hero {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-start; /* Left-align both image and text */
   align-items: center;
   padding: 0 60px;
   height: 90vh;
-  gap: 100px; /* Tighten spacing between image and text */
+  gap: 40px;
 }
 
 /* === PROFILE IMAGE CONTAINER (Yellow Circle) === */
 .image-container {
-  width: 500px; /* Increased circle size */
-  height: 500px;
+  width: 420px;
+  height: 420px;
   border-radius: 50%;
   background-color: #f9d44c;
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: flex-end; /* Bottom-align the image */
+  align-items: flex-end;
   flex-shrink: 0;
-  margin-right: -20px; /* Pull the circle slightly to the left */
+  margin-left: -60px; /* Pull yellow circle all the way left beyond padding */
 }
 
 /* === PROFILE IMAGE === */
@@ -75,7 +75,7 @@ body {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 28px;
   margin: 0 0 10px;
-  text-transform: none; /* Sentence case */
+  text-transform: none;
 }
 
 /* "Chanakya" */
@@ -95,10 +95,10 @@ body {
   display: inline-block;
 }
 
-/* "DATA SCIENTIST" Block */
+/* "DATA SCIENTIST" */
 .title {
   text-align: center;
-  margin-top: -10px; /* Nudge upward */
+  margin-top: -10px;
 }
 
 .role-line {
