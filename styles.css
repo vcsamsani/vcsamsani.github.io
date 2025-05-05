@@ -46,24 +46,24 @@ body {
 }
 
 .circle {
-    width: 85%;
-    height: 85%;
+    width: 121.51%;
+    height: 121%;
     background-color: #fcd946;
     border-radius: 52%;
     position: absolute;
-    top: 18px;
-    left: 13px;
+    top: -59px;
+    left: -43px;
     z-index: 1;
 }
 
 .profile-pic {
-    width: 90%;
-    height: 108%;
-    object-fit: contain;
-    border-radius: 49%;
+    width: 123%;
+    height: 147%;
+    object-fit: fill;
+    border-radius: 43%;
     position: absolute;
-    top: -90px;
-    left: 0px;
+    top: -150px;
+    left: -45px;
     z-index: 2;
 }
 
