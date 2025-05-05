@@ -32,17 +32,21 @@ body {
 /* HERO SECTION */
 .hero {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   padding: 80px 60px;
   min-height: 90vh;
+  text-align: center;
+  flex-wrap: nowrap;
+  align-content: center;
 }
 
 .profile-wrapper {
   position: relative;
   width: 350px;
   height: 350px;
-  margin-right: 300px;
+  margin-right: 100px;
 }
 
 .circle {
@@ -69,35 +73,37 @@ body {
 
 /* TEXT STYLING */
 .intro-text {
-  text-align: left;
+  text-align: center;
   z-index: 3;
 }
 
 .hello {
   font-family: 'Brice BoldCondensed', sans-serif;
-  font-size: 20px;
-  letter-spacing: 1px;
-  margin: 10px 0;
+  font-size: 50px;
+  letter-spacing: 3px;
+  margin: -23px 0;
 }
 
 .name {
   font-family: 'Brightwall', cursive;
   font-size: 92px;
-  margin: 58px 0;
+  margin: -18px 0;
+  letter-spacing: 31px;
 }
 
 .pronounce {
   font-family: 'Economica', sans-serif;
-  font-style: italic;
-  font-size: 16px;
-  margin-bottom: 35px;
+  font-style: normal;
+  font-size: 21px;
+  margin-bottom: -8px;
+  margin-top: -58px;
 }
 
 .title {
   font-family: 'Space Mono', monospace;
-  font-size: 40px;
+  font-size: 76px;
   line-height: 1.2;
   letter-spacing: 10px;
-  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke: 2px white;
   color: transparent;
 }
