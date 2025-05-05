@@ -32,12 +32,10 @@ body {
 /* HERO SECTION */
 .hero {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 80px 60px;
   min-height: 90vh;
-  text-align: center;
 }
 
 .profile-wrapper {
@@ -71,7 +69,7 @@ body {
 
 /* TEXT STYLING */
 .intro-text {
-  text-align: center;
+  text-align: left;
   z-index: 3;
 }
 
