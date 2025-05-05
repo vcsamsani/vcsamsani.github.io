@@ -24,7 +24,7 @@ body {
 
 .nav-right a {
   color: white;
-  text-decoration: auto;
+  text-decoration: none;
   margin: 0 8px;
   font-family: 'Economica', sans-serif;
 }
@@ -46,25 +46,25 @@ body {
 }
 
 .circle {
-    width: 121.51%;
-    height: 121%;
-    background-color: #fcd946;
-    border-radius: 52%;
-    position: absolute;
-    top: -59px;
-    left: -43px;
-    z-index: 1;
+  width: 121.51%;
+  height: 121%;
+  background-color: #fcd946;
+  border-radius: 52%;
+  position: absolute;
+  top: -59px;
+  left: -43px;
+  z-index: 1;
 }
 
 .profile-pic {
-    width: 123%;
-    height: 147%;
-    object-fit: fill;
-    border-radius: 43%;
-    position: absolute;
-    top: -150px;
-    left: -45px;
-    z-index: 2;
+  width: 123%;
+  height: 147%;
+  object-fit: fill;
+  border-radius: 43%;
+  position: absolute;
+  top: -150px;
+  left: -45px;
+  z-index: 2;
 }
 
 /* TEXT STYLING */
@@ -74,21 +74,21 @@ body {
 }
 
 .hello {
-  font-family: 'Bruno Ace SC', sans-serif;
+  font-family: 'Brice BoldCondensed', sans-serif;
   font-size: 20px;
   letter-spacing: 1px;
   margin: 10px 0;
 }
 
 .name {
-  font-family: 'Great Vibes';
+  font-family: 'Brightwall', cursive;
   font-size: 92px;
   margin: 58px 0;
 }
 
 .pronounce {
   font-family: 'Economica', sans-serif;
-  font-style: normal;
+  font-style: italic;
   font-size: 16px;
   margin-bottom: 35px;
 }
@@ -98,7 +98,6 @@ body {
   font-size: 40px;
   line-height: 1.2;
   letter-spacing: 10px;
-  color: white;
   -webkit-text-stroke: 1px white;
   color: transparent;
 }
