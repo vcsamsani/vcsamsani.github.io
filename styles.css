@@ -1,117 +1,105 @@
-/* === GENERAL === */
 body {
   margin: 0;
   padding: 0;
-  background-image: url('images/background.jpg');
+  background: url('Images/bg.png') no-repeat center center fixed;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   color: white;
+  font-family: 'Economica', sans-serif;
 }
 
-/* === NAVIGATION BAR === */
-.nav {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 60px;
-  font-size: 14px;
+  padding: 20px 40px;
+  font-size: 16px;
+}
+
+.logo {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 12px;
+  font-family: 'Economica', sans-serif;
+}
+
+.home-icon {
+  width: 16px;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-top: 80px;
+  flex-wrap: wrap;
+}
+
+.photo-wrapper {
+  position: relative;
+  width: 350px;
+  height: 350px;
+}
+
+.yellow-circle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #f4cd3c;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.profile-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.intro-text {
+  max-width: 500px;
+  text-align: left;
+}
+
+.hi {
+  font-family: 'Brice Bold Condensed', sans-serif;
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 
 .name {
-  font-size: 20px;
-  font-family: 'Cinzel Decorative', serif;
-  letter-spacing: 2px;
-}
-
-.menu a {
-  font-family: 'Economica', sans-serif;
-  color: white;
-  text-decoration: none;
-  margin: 0 12px;
-}
-
-/* === HERO SECTION === */
-.hero {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 0 40px;
-  height: 90vh;
-  gap: 50px;
-}
-
-/* === PROFILE IMAGE CONTAINER (Yellow Circle) === */
-.image-container {
-  width: 500px;
-  height: 482px;
-  border-radius: 50%;
-  background-color: #f9d44c;
-  overflow: visible;
-  display: inline-flex;
-  justify-content: strectch;
-  align-items: anchor-center;
-  flex-shrink: 0;
-  margin-left: -28px;
-}
-
-/* === PROFILE IMAGE === */
-.image-container img {
-  width: 130%;
-  height: 130%;
-  object-fit: fill;
-  border-radius: 38%;
-  filter: grayscale(100%);
-  position: relative;
-  top: -70px;
-  left: -2px;
-}
-
-/* === INTRO TEXT BLOCK === */
-.intro {
-  text-align: left;
-  max-width: 600px;
-}
-
-/* "Hi There!, I'm" */
-.hello {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 32px;
-  margin: 0 0 10px;
-  text-transform: none;
-}
-
-/* "Chanakya" */
-.intro h1 {
-  font-family: 'Dancing Script', cursive;
-  font-size: 90px;
+  font-family: 'Brightwall', cursive;
+  font-size: 60px;
   margin: 0;
-  line-height: 1.2;
 }
 
-/* Pronunciation */
-.pronounce {
+.phonetic {
   font-family: 'Economica', sans-serif;
-  font-size: 18px;
   font-style: italic;
-  margin: 10px 0 25px;
-  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
-/* "DATA SCIENTIST" */
 .title {
-  text-align: left;
-  margin-top: -10px;
-}
-
-.role-line {
   font-family: 'Space Mono', monospace;
-  font-size: 56px;
-  font-weight: 900;
-  text-transform: uppercase;
-  letter-spacing: 14px;
-  margin: 0;
+  font-size: 48px;
+  letter-spacing: 10px;
+  text-align: left;
+  line-height: 1.2;
   color: transparent;
-  -webkit-text-stroke: 1.2px white;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke: 1.5px white;
 }
