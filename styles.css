@@ -108,20 +108,22 @@ body {
 .animated-title {
   position: relative;
   height: 150px;
-  overflow: visible;
+  width: 100%;
   font-family: 'Space Mono', monospace;
   font-size: 76px;
   letter-spacing: 10px;
   -webkit-text-stroke: 4px white;
   color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
 }
 
 .animated-title .word {
   position: absolute;
-  width: 100%;
-  text-align: center;
   opacity: 0;
-  animation: word-fade 14s infinite;
+  animation: rotateWords 14s linear infinite;
 }
 
 .animated-title .word:nth-child(1) { animation-delay: 0s; }
@@ -132,10 +134,10 @@ body {
 .animated-title .word:nth-child(6) { animation-delay: 10s; }
 .animated-title .word:nth-child(7) { animation-delay: 12s; }
 
-@keyframes word-fade {
+@keyframes rotateWords {
   0% { opacity: 0; transform: translateY(20px); }
-  5% { opacity: 1; transform: translateY(0); }
-  20% { opacity: 1; transform: translateY(0); }
-  25% { opacity: 0; transform: translateY(-20px); }
+  10% { opacity: 1; transform: translateY(0); }
+  25% { opacity: 1; transform: translateY(0); }
+  35% { opacity: 0; transform: translateY(-20px); }
   100% { opacity: 0; }
 }
