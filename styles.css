@@ -96,7 +96,7 @@ body {
 .pronounce {
   font-family: 'Economica', sans-serif;
   font-size: 30px;
-  font-style: italic;
+  font-style: normal;
   margin: 10px 0 25px;
   display: inline-block;
   margin-bottom: -26px;
