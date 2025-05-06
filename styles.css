@@ -87,16 +87,18 @@ body {
 .name {
   font-family: 'Brightwall', cursive;
   font-size: 92px;
-  margin: -18px 0;
+  margin: -21px 0;
   letter-spacing: 31px;
+  margin-bottom: -44px;
 }
 
 .pronounce {
   font-family: 'Economica', sans-serif;
-  font-size: 18px;
-  font-style: italic;
-  margin: 10px 0 25px;
+  font-size: 29px;
+  font-style: normal;
+  margin: -15px 0 -25px;
   display: inline-block;
+  margin-bottom: -20px;
 }
 
 .title {
@@ -106,4 +108,5 @@ body {
   letter-spacing: 10px;
   -webkit-text-stroke: 2px white;
   color: transparent;
+  margin-top: 27px;
 }
