@@ -93,10 +93,10 @@ body {
 
 .pronounce {
   font-family: 'Economica', sans-serif;
-  font-style: normal;
-  font-size: 21px;
-  margin-bottom: -8px;
-  margin-top: -58px;
+  font-size: 18px;
+  font-style: italic;
+  margin: 10px 0 25px;
+  display: inline-block;
 }
 
 .title {
