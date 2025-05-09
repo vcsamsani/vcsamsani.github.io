@@ -98,16 +98,16 @@ body {
   font-family: 'Economica', sans-serif;
   font-size: 30px;
   font-style: normal;
-  margin: 10px 0 25px;
+  margin: -12px 0 23px;
   display: inline-block;
-  margin-bottom: -26px;
+  margin-bottom: -28px;
   letter-spacing: 7px;
 }
 
 /* ANIMATED TITLE */
 .animated-title {
   position: relative;
-  height: 150px;
+  height: 314px;
   width: 100%;
   font-family: 'Space Mono', monospace;
   font-size: 76px;
