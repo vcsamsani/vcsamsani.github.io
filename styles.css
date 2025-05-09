@@ -49,7 +49,7 @@ body {
   position: relative;
   width: 350px;
   height: 350px;
-  margin-right: 100px;
+  margin-right: 150px;
 }
 
 .circle {
@@ -108,18 +108,19 @@ body {
 /* === TYPED.JS STYLE TYPEWRITER === */
 .animated-title {
   font-family: 'Space Mono', monospace;
-  font-size: 76px;
-  letter-spacing: 10px;
-  -webkit-text-stroke: 4px white;
+  font-size: 60px;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 0px;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   white-space: nowrap;
   overflow: hidden;
-  width: fit-content;
-  margin: 0 auto;
+  width: min-content;
+  margin: 30px auto;
   position: relative;
+  padding-left: 55px;
 }
 
 .typed-cursor {
