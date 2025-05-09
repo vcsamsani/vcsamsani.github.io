@@ -124,9 +124,9 @@ body {
 }
 
 .typed-cursor {
-  font-size: 76px;
+  font-size: 60px;
   margin-left: 4px;
-  -webkit-text-stroke: 4px white;
+  -webkit-text-stroke: 0px;
   color: white;
   animation: blink 0.6s infinite;
 }
@@ -134,4 +134,72 @@ body {
 @keyframes blink {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
+}
+
+/* === ABOUT SECTION === */
+.about {
+  padding: 80px 60px;
+  background: url('images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.section-title {
+  font-family: 'Space Mono', monospace;
+  font-size: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+  margin-bottom: 40px;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.about-left,
+.about-right {
+  flex: 1;
+  font-family: 'Economica', sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 1.8;
+}
+
+.about-right p {
+  margin: 8px 0;
+  text-align: left;
+}
+
+/* === SKILLS ICONS === */
+.skills-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.skills-icons img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: radial-gradient(white 0%, white 30%, transparent 31%, gold 70%);
+  padding: 10px;
+  object-fit: contain;
+}
+
+/* === OTHER SKILLS TEXT === */
+.other-skills {
+  font-family: 'Economica', sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-top: 20px;
 }
