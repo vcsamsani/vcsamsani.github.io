@@ -82,13 +82,13 @@ body {
 
 .hello {
   font-family: 'Brice BoldCondensed', sans-serif;
-  font-size: 50px;
+  font-size: 44px;
   letter-spacing: 3px;
   margin: -23px 0;
 }
 
 .name {
-  font-family: 'Brightwall', regular;
+  font-family: 'Brightwall', cursive;
   font-size: 92px;
   margin: -18px 0;
   letter-spacing: 31px;
@@ -99,7 +99,7 @@ body {
   font-family: 'Economica', sans-serif;
   font-size: 30px;
   font-style: normal;
-  margin: 10px 0 25px;
+  margin: -13px 0 25px;
   display: inline-block;
   margin-bottom: -26px;
   letter-spacing: 7px;
