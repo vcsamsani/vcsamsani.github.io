@@ -6,7 +6,7 @@
   <title>Chanakya Samsani</title>
   <link rel="stylesheet" href="styles.css" />
 
-  <!-- Local Fonts -->
+  <!-- Fonts -->
   <style>
     @font-face {
       font-family: 'Cinzel Decorative';
@@ -25,6 +25,9 @@
       src: url('Fonts/Briightwall.woff2') format('woff2');
     }
   </style>
+
+  <!-- Typed.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 <body>
   <div class="navbar">
@@ -47,8 +50,32 @@
       <p class="hello">Hi There!, I’m</p>
       <h1 class="name">Chanakya</h1>
       <p class="pronounce">Chaa - nakh - kyaa</p>
-      <h2 class="animated-title"></h2>
+      <h2 class="animated-title">
+        <span id="typed-text"></span><span class="typed-cursor">|</span>
+      </h2>
     </div>
   </div>
+
+  <!-- Typed.js Script -->
+  <script>
+    new Typed('#typed-text', {
+      strings: [
+        "Data Scientist",
+        "Analyst",
+        "Engineer",
+        "Artist",
+        "A Son",
+        "A Brother",
+        "A Friend"
+      ],
+      typeSpeed: 60,
+      backSpeed: 40,
+      backDelay: 1000,
+      startDelay: 500,
+      loop: true,
+      showCursor: true,
+      cursorChar: "|"
+    });
+  </script>
 </body>
 </html>
