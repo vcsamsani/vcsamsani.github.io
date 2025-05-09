@@ -14,7 +14,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0px 5px;
-  font-family: 'Economica', sans-serif;
 }
 
 .nav-left {
@@ -41,7 +40,6 @@ body {
   padding: 80px 60px;
   min-height: 90vh;
   text-align: center;
-  padding-right: 0px;
   flex-wrap: nowrap;
   align-content: center;
 }
@@ -106,7 +104,7 @@ body {
   letter-spacing: 7px;
 }
 
-/* === TYPED.JS STYLE TYPEWRITER === */
+/* === TYPED.JS TYPEWRITER === */
 .animated-title {
   font-family: 'Space Mono', monospace;
   font-size: 62px;
@@ -122,19 +120,6 @@ body {
   margin: 30px auto;
   position: relative;
   padding-left: 55px;
-}
-
-.typed-cursor {
-  font-size: 60px;
-  margin-left: 4px;
-  -webkit-text-stroke: 0px;
-  color: white;
-  animation: blink 0.6s infinite;
-}
-
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
 }
 
 /* === ABOUT SECTION === */
@@ -153,32 +138,26 @@ body {
   text-transform: uppercase;
   -webkit-text-stroke: 2px white;
   color: transparent;
-  margin-bottom: 17px;
-  margin-top: -97px;
-  margin-left: -889px;
+  margin: 50px 0 30px;
+  text-align: center;
 }
 
 .about-container {
   display: flex;
-  justify-content: flex-end;
-  gap: 612px;
-  flex-wrap: nowrap;
-  margin-bottom: 109px;
-  margin-left: 73px;
-  margin-top: -20px;
-  flex-direction: inherit;
-  align-content: baseline;
-  align-items: baseline;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
 }
 
 .about-left,
 .about-right {
   flex: 1;
   font-family: 'Economica', sans-serif;
-  font-size: 29px;
+  font-size: 20px;
   text-align: justify;
-  line-height: 1.5;
-  margin-right: -402px;
+  line-height: 1.6;
+  padding: 0 20px;
 }
 
 .about-right p {
@@ -186,7 +165,7 @@ body {
   text-align: left;
 }
 
-/* === SKILLS ICONS === */
+/* === SKILLS RINGS === */
 .skills-icons {
   display: flex;
   justify-content: center;
@@ -196,13 +175,24 @@ body {
   margin-bottom: 20px;
 }
 
-.skills-icons img {
-  width: 80px;
-  height: 80px;
+.skill-ring {
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
-  background: radial-gradient(white 0%, white 30%, transparent 31%, gold 70%);
-  padding: 10px;
+  background: conic-gradient(gold calc(var(--percent) * 1%), rgba(255,255,255,0.2) 0%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+
+.skill-ring img {
+  width: 65%;
+  height: 65%;
   object-fit: contain;
+  border-radius: 50%;
+  background: white;
+  padding: 8px;
 }
 
 /* === OTHER SKILLS TEXT === */
