@@ -1,3 +1,4 @@
+/* === GLOBAL STYLES === */
 body {
   margin: 0;
   padding: 0;
@@ -7,7 +8,7 @@ body {
   color: white;
 }
 
-/* NAVBAR */
+/* === NAVIGATION BAR === */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -31,7 +32,7 @@ body {
   font-size: 20px;
 }
 
-/* HERO SECTION */
+/* === HERO SECTION === */
 .hero {
   display: flex;
   flex-direction: row;
@@ -73,7 +74,7 @@ body {
   z-index: 2;
 }
 
-/* TEXT STYLING */
+/* === TEXT STYLING === */
 .intro-text {
   text-align: center;
   z-index: 3;
@@ -104,7 +105,7 @@ body {
   letter-spacing: 7px;
 }
 
-/* TYPEWRITER ANIMATION */
+/* === TYPEWRITER TITLE === */
 .animated-title {
   font-family: 'Space Mono', monospace;
   font-size: 76px;
@@ -125,46 +126,78 @@ body {
 
 .animated-title::after {
   content: '';
-  animation: typewriter 28s steps(20) infinite, blink 0.75s step-end infinite;
+  animation: typewriter 18s steps(12) infinite, blink 0.6s step-end infinite;
 }
 
 @keyframes typewriter {
-  0%    { content: 'D'; }
-  4%    { content: 'Da'; }
-  8%    { content: 'Dat'; }
-  12%   { content: 'Data'; }
-  16%   { content: 'Data '; }
-  20%   { content: 'Data S'; }
-  24%   { content: 'Data Sc'; }
-  28%   { content: 'Data Sci'; }
-  32%   { content: 'Data Scie'; }
-  36%   { content: 'Data Scien'; }
-  40%   { content: 'Data Scient'; }
-  44%   { content: 'Data Scienti'; }
-  48%   { content: 'Data Scientis'; }
-  52%   { content: 'Data Scientist'; }
+  0%, 2% { content: "D"; }
+  3%, 4% { content: "Da"; }
+  5%, 6% { content: "Dat"; }
+  7%, 8% { content: "Data"; }
+  9%, 10% { content: "Data S"; }
+  11%, 12% { content: "Data Sc"; }
+  13%, 14% { content: "Data Sci"; }
+  15%, 16% { content: "Data Scie"; }
+  17%, 18% { content: "Data Scien"; }
+  19%, 20% { content: "Data Scient"; }
+  21%, 22% { content: "Data Scienti"; }
+  23%, 24% { content: "Data Scientis"; }
+  25%, 26% { content: "Data Scientist"; }
 
-  56%   { content: ''; }
+  27%, 30% { content: ""; }
+  31%, 32% { content: "A"; }
+  33%, 34% { content: "An"; }
+  35%, 36% { content: "Ana"; }
+  37%, 38% { content: "Anal"; }
+  39%, 40% { content: "Analy"; }
+  41%, 42% { content: "Analys"; }
+  43%, 44% { content: "Analyst"; }
 
-  60%   { content: 'Analyst'; }
-  64%   { content: ''; }
+  45%, 48% { content: ""; }
+  49%, 50% { content: "E"; }
+  51%, 52% { content: "En"; }
+  53%, 54% { content: "Eng"; }
+  55%, 56% { content: "Engi"; }
+  57%, 58% { content: "Engin"; }
+  59%, 60% { content: "Engine"; }
+  61%, 62% { content: "Engineer"; }
 
-  68%   { content: 'Engineer'; }
-  72%   { content: ''; }
+  63%, 66% { content: ""; }
+  67%, 68% { content: "A"; }
+  69%, 70% { content: "Ar"; }
+  71%, 72% { content: "Art"; }
+  73%, 74% { content: "Arti"; }
+  75%, 76% { content: "Artis"; }
+  77%, 78% { content: "Artist"; }
 
-  76%   { content: 'Artist'; }
-  80%   { content: ''; }
+  79%, 82% { content: ""; }
+  83%, 84% { content: "A"; }
+  85%, 86% { content: "A "; }
+  87%, 88% { content: "A S"; }
+  89%, 90% { content: "A So"; }
+  91%, 92% { content: "A Son"; }
 
-  84%   { content: 'A Son'; }
-  88%   { content: ''; }
+  93%, 96% { content: ""; }
+  97%, 98% { content: "A B"; }
+  99%, 100% { content: "A Br"; }
+  101%, 102% { content: "A Bro"; }
+  103%, 104% { content: "A Brot"; }
+  105%, 106% { content: "A Broth"; }
+  107%, 108% { content: "A Brothe"; }
+  109%, 110% { content: "A Brother"; }
 
-  92%   { content: 'A Brother'; }
-  96%   { content: ''; }
+  111%, 114% { content: ""; }
+  115%, 116% { content: "A F"; }
+  117%, 118% { content: "A Fr"; }
+  119%, 120% { content: "A Fri"; }
+  121%, 122% { content: "A Frie"; }
+  123%, 124% { content: "A Frien"; }
+  125%, 126% { content: "A Friend"; }
 
-  100%  { content: 'A Friend'; }
+  127%, 130% { content: ""; }
 }
 
 @keyframes blink {
   0%, 100% { border-color: transparent; }
-  50%      { border-color: white; }
+  50% { border-color: white; }
 }
