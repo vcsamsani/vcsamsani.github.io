@@ -98,46 +98,73 @@ body {
   font-family: 'Economica', sans-serif;
   font-size: 30px;
   font-style: normal;
-  margin: -12px 0 23px;
+  margin: 10px 0 25px;
   display: inline-block;
-  margin-bottom: -28px;
+  margin-bottom: -26px;
   letter-spacing: 7px;
 }
 
-/* ANIMATED TITLE */
+/* TYPEWRITER ANIMATION */
 .animated-title {
-  position: relative;
-  height: 314px;
-  width: 100%;
   font-family: 'Space Mono', monospace;
   font-size: 76px;
   letter-spacing: 10px;
   -webkit-text-stroke: 4px white;
   color: transparent;
+  height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: visible;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid white;
+  width: fit-content;
+  margin: 0 auto;
+  position: relative;
 }
 
-.animated-title .word {
-  position: absolute;
-  opacity: 0;
-  animation: rotateWords 21s linear infinite;
+.animated-title::after {
+  content: '';
+  animation: typewriter 28s steps(20) infinite, blink 0.75s step-end infinite;
 }
 
-.animated-title .word:nth-child(1) { animation-delay: 0s; }
-.animated-title .word:nth-child(2) { animation-delay: 3s; }
-.animated-title .word:nth-child(3) { animation-delay: 6s; }
-.animated-title .word:nth-child(4) { animation-delay: 9s; }
-.animated-title .word:nth-child(5) { animation-delay: 12s; }
-.animated-title .word:nth-child(6) { animation-delay: 15s; }
-.animated-title .word:nth-child(7) { animation-delay: 18s; }
+@keyframes typewriter {
+  0%    { content: 'D'; }
+  4%    { content: 'Da'; }
+  8%    { content: 'Dat'; }
+  12%   { content: 'Data'; }
+  16%   { content: 'Data '; }
+  20%   { content: 'Data S'; }
+  24%   { content: 'Data Sc'; }
+  28%   { content: 'Data Sci'; }
+  32%   { content: 'Data Scie'; }
+  36%   { content: 'Data Scien'; }
+  40%   { content: 'Data Scient'; }
+  44%   { content: 'Data Scienti'; }
+  48%   { content: 'Data Scientis'; }
+  52%   { content: 'Data Scientist'; }
 
-@keyframes rotateWords {
-  0%   { opacity: 0; transform: translateY(20px); }
-  5%   { opacity: 1; transform: translateY(0); }
-  30%  { opacity: 1; transform: translateY(0); }
-  35%  { opacity: 0; transform: translateY(-20px); }
-  100% { opacity: 0; }
+  56%   { content: ''; }
+
+  60%   { content: 'Analyst'; }
+  64%   { content: ''; }
+
+  68%   { content: 'Engineer'; }
+  72%   { content: ''; }
+
+  76%   { content: 'Artist'; }
+  80%   { content: ''; }
+
+  84%   { content: 'A Son'; }
+  88%   { content: ''; }
+
+  92%   { content: 'A Brother'; }
+  96%   { content: ''; }
+
+  100%  { content: 'A Friend'; }
+}
+
+@keyframes blink {
+  0%, 100% { border-color: transparent; }
+  50%      { border-color: white; }
 }
