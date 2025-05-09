@@ -107,7 +107,8 @@ body {
 /* ANIMATED TITLE */
 .animated-title {
   position: relative;
-  height: 90px;
+  height: 314px;
+  width: 100%;
   font-family: 'Space Mono', monospace;
   font-size: 76px;
   letter-spacing: 10px;
@@ -116,14 +117,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .animated-title .word {
   position: absolute;
   opacity: 0;
-  transform: translateY(20px);
-  animation: fadeWord 21s linear infinite;
+  animation: rotateWords 21s linear infinite;
 }
 
 .animated-title .word:nth-child(1) { animation-delay: 0s; }
@@ -134,7 +134,7 @@ body {
 .animated-title .word:nth-child(6) { animation-delay: 15s; }
 .animated-title .word:nth-child(7) { animation-delay: 18s; }
 
-@keyframes fadeWord {
+@keyframes rotateWords {
   0%   { opacity: 0; transform: translateY(20px); }
   5%   { opacity: 1; transform: translateY(0); }
   30%  { opacity: 1; transform: translateY(0); }
