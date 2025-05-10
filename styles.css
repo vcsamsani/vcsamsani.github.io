@@ -1,4 +1,3 @@
-/* === GLOBAL STYLES === */
 body {
   margin: 0;
   padding: 0;
@@ -8,7 +7,6 @@ body {
   color: white;
 }
 
-/* === NAVIGATION BAR === */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -31,7 +29,6 @@ body {
   font-size: 20px;
 }
 
-/* === HERO SECTION === */
 .hero {
   display: flex;
   flex-direction: row;
@@ -73,7 +70,6 @@ body {
   z-index: 2;
 }
 
-/* === TEXT STYLING === */
 .intro-text {
   text-align: center;
   z-index: 3;
@@ -104,7 +100,6 @@ body {
   letter-spacing: 7px;
 }
 
-/* === TYPED.JS TYPEWRITER === */
 .animated-title {
   font-family: 'Space Mono', monospace;
   font-size: 62px;
@@ -122,13 +117,11 @@ body {
   padding-left: 55px;
 }
 
-/* === ABOUT SECTION === */
 .about {
   padding: 80px 60px;
   background: url('images/background.jpg') no-repeat center center fixed;
   background-size: cover;
   color: white;
-  text-align: center;
 }
 
 .section-title {
@@ -138,67 +131,71 @@ body {
   text-transform: uppercase;
   -webkit-text-stroke: 2px white;
   color: transparent;
-  margin: 50px 0 30px;
-  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  text-align: left;
+  margin-left: 60px;
 }
 
 .about-container {
   display: flex;
   justify-content: space-between;
-  gap: 50px;
   flex-wrap: wrap;
-  margin-bottom: 60px;
+  margin: 0 60px 40px;
+  gap: 60px;
 }
 
-.about-left,
+.about-left {
+  flex: 2;
+  font-family: 'Economica', sans-serif;
+  font-size: 22px;
+  text-align: justify;
+  line-height: 1.7;
+}
+
 .about-right {
   flex: 1;
-  font-family: 'Economica', sans-serif;
   font-size: 20px;
-  text-align: justify;
-  line-height: 1.6;
-  padding: 0 20px;
-}
-
-.about-right p {
-  margin: 8px 0;
+  font-family: 'Economica', sans-serif;
+  line-height: 2;
   text-align: left;
 }
 
-/* === SKILLS RINGS === */
 .skills-icons {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  gap: 30px;
+  gap: 40px;
   flex-wrap: wrap;
+  padding-left: 60px;
   margin-bottom: 20px;
 }
 
 .skill-ring {
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
-  background: conic-gradient(gold calc(var(--percent) * 1%), rgba(255,255,255,0.2) 0%);
+  background: conic-gradient(gold calc(var(--percent) * 1%), rgba(255,255,255,0.15) 0%);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 8px;
+  padding: 10px;
+  box-shadow: 0 0 12px rgba(255, 215, 0, 0.6);
 }
 
 .skill-ring img {
-  width: 65%;
-  height: 65%;
+  width: 68%;
+  height: 68%;
   object-fit: contain;
   border-radius: 50%;
   background: white;
-  padding: 8px;
+  padding: 10px;
 }
 
-/* === OTHER SKILLS TEXT === */
 .other-skills {
   font-family: 'Economica', sans-serif;
-  font-size: 18px;
-  letter-spacing: 2px;
-  margin-top: 20px;
+  font-size: 17px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 30px 60px;
 }
