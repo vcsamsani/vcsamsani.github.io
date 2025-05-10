@@ -217,16 +217,17 @@ body {
 }
 
 .timeline-section {
-  padding: 100px 60px;
+  padding: 120px 0;
   background: url('images/background.jpg') no-repeat center center fixed;
   background-size: cover;
+  position: relative;
 }
 
 .timeline-container {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 120px 0;
+  height: 1100px; /* Adjust if you add more events */
 }
 
 .timeline-container::before {
@@ -241,28 +242,23 @@ body {
   opacity: 0.4;
 }
 
-.timeline-block {
-  position: relative;
-  width: 50%;
-  box-sizing: border-box;
-  padding: 20px 30px;
-}
+/* Independent Elements */
 
-.timeline-block.left-block {
-  left: 0;
-  text-align: left;
-}
-
-.timeline-block.right-block {
-  left: 50%;
-  text-align: left;
+.timeline-bubble {
+  position: absolute;
+  background-color: #eeeeee;
+  color: black;
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-family: 'Economica', sans-serif;
+  font-size: 18px;
+  white-space: nowrap;
+  z-index: 2;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
 .timeline-icon {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 90px;
   height: 90px;
   background-color: white;
@@ -281,31 +277,15 @@ body {
   object-fit: contain;
 }
 
-.timeline-bubble {
-  position: absolute;
-  top: calc(50% - 80px); /* above the icon */
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: #eeeeee;
-  color: black;
-  padding: 8px 20px;
-  border-radius: 30px;
-  font-family: 'Economica', sans-serif;
-  font-size: 18px;
-  white-space: nowrap;
-  z-index: 2;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-}
-
 .timeline-card {
-  margin-top: 120px;
+  position: absolute;
   background-color: #e4a200;
   border-radius: 25px;
   padding: 24px 30px;
   color: black;
   font-family: 'Economica', sans-serif;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
-  width: 90%;
+  width: 40%;
 }
 
 .timeline-card h3 {
