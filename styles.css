@@ -118,7 +118,7 @@ body {
 }
 
 .about {
-  padding: 80px 60px;
+  padding: 0px 60px;
   background: url('images/background.jpg') no-repeat center center fixed;
   background-size: cover;
   color: white;
@@ -131,8 +131,8 @@ body {
   text-transform: uppercase;
   -webkit-text-stroke: 2px white;
   color: transparent;
-  margin-bottom: 30px;
-  margin-top: 40px;
+  margin-bottom: 15px;
+  margin-top: -74px;
   text-align: left;
   margin-left: 60px;
 }
@@ -142,32 +142,34 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 60px 40px;
-  gap: 60px;
+  gap: 340px;
 }
 
 .about-left {
   flex: 2;
   font-family: 'Economica', sans-serif;
-  font-size: 22px;
+  font-size: 29px;
   text-align: justify;
   line-height: 1.7;
+  margin-right: -157px;
 }
 
 .about-right {
   flex: 1;
-  font-size: 20px;
+  font-size: 26px;
   font-family: 'Economica', sans-serif;
   line-height: 2;
   text-align: left;
+  margin-right: -109px;
 }
 
 .skills-icons {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 60px;
   flex-wrap: wrap;
-  padding-left: 60px;
+  padding-left: 0px;
   margin-bottom: 20px;
 }
 
@@ -175,7 +177,7 @@ body {
   width: 110px;
   height: 110px;
   border-radius: 50%;
-  background: conic-gradient(gold calc(var(--percent) * 1%), rgba(255,255,255,0.15) 0%);
+  background: conic-gradient(#d8b214 calc(var(--percent) * 1%), rgb(255 255 255 / 49%) 0%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -188,8 +190,8 @@ body {
   height: 68%;
   object-fit: contain;
   border-radius: 50%;
-  background: white;
-  padding: 10px;
+  background: #ffffff;
+  padding: 5px;
 }
 
 .other-skills {
