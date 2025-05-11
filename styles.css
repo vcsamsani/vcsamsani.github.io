@@ -236,13 +236,13 @@ body {
 .timeline-container::before {
   content: "";
   position: absolute;
-  top: 0;
+  top: 106px;
   left: 50%;
   transform: translateX(-50%);
-  width: 4px;
+  width: 7px;
   height: 100%;
   background-color: white;
-  opacity: 0.4;
+  opacity: 1;
 }
 
 /* === Timeline Independent Items === */
@@ -254,32 +254,32 @@ body {
 
 /* === UNH === */
 .bubble-unh {
-  top: 30px;
-  left: 38%;
+  top: 100px;
+  left: 28%;
 }
 .icon-unh {
-  top: 70px;
-  left: 49%;
+  top: 66px;
+  left: 45.9%;
 }
 .card-unh {
   top: 40px;
-  left: 58%;
-  width: 38%;
+  left: 59%;
+  width: 30%;
 }
 
 /* === ANR === */
 .bubble-anr {
-  top: 250px;
-  left: 52%;
+  top: 439px;
+  left: 59%;
 }
 .icon-anr {
-  top: 290px;
-  left: 49%;
+  top: 408px;
+  left: 45.9%;
 }
 .card-anr {
-  top: 200px;
-  left: 4%;
-  width: 46%;
+  top: 323px;
+  left: 80px;
+  width: 30%;
 }
 
 /* === AMITY === */
