@@ -245,7 +245,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   width: 7px;
-  height: 100%;
+  height: 60%;
   background-color: white;
   opacity: 1;
 }
@@ -267,39 +267,39 @@ body {
   left: 45.9%;
 }
 .card-unh {
-  top: 40px;
+  top: 58px;
   left: 59%;
   width: 30%;
 }
 
 /* === ANR === */
 .bubble-anr {
-  top: 439px;
+  top: 395px;
   left: 59%;
 }
 .icon-anr {
-  top: 408px;
+  top: 366px;
   left: 45.9%;
 }
 .card-anr {
-  top: 323px;
+  top: 309px;
   left: 80px;
   width: 30%;
 }
 
 /* === AMITY === */
 .bubble-amity {
-  top: 470px;
-  left: 38%;
+  top: 697px;
+  left: 28%;
 }
 .icon-amity {
-  top: 510px;
-  left: 49%;
+  top: 665px;
+  left: 45.9%;
 }
 .card-amity {
-  top: 490px;
-  left: 58%;
-  width: 38%;
+  top: 656px;
+  left: 59%;
+  width: 30%;
 }
 
 /* === Timeline Element Styling === */
