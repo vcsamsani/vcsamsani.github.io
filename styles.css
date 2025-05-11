@@ -307,3 +307,30 @@ body {
 .timeline-card ul li {
   margin-bottom: 8px;
 }
+/* === Individual Logo Styles === */
+.logo-unh {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: white;
+  padding: 4px;
+  object-fit: cover;
+}
+
+.logo-anr {
+  width: 65px;
+  height: 65px;
+  border-radius: 15px;
+  background: white;
+  padding: 5px;
+  object-fit: contain;
+}
+
+.logo-amity {
+  width: 70px;
+  height: 70px;
+  border-radius: 30%;
+  background: white;
+  padding: 6px;
+  object-fit: scale-down;
+}
