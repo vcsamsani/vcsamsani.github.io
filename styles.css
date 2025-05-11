@@ -151,6 +151,11 @@ body {
   margin-left: 60px;
 }
 
+.decoding-me {
+  padding-bottom: 35px;
+  padding-top: 55px;
+}
+
 .about-container {
   display: flex;
   justify-content: space-between;
