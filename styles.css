@@ -146,7 +146,7 @@ body {
   -webkit-text-stroke: 2px white;
   color: transparent;
   margin-bottom: 30px;
-  margin-top: 60px;
+  margin-top: 126px;
   text-align: left;
   margin-left: 60px;
 }
@@ -225,7 +225,7 @@ body {
 
 /* === TIMELINE SECTION === */
 .timeline-section {
-  padding: 120px 60px;
+  padding: 0px 60px;
   background: url('images/background.jpg') no-repeat center center fixed;
   background-size: cover;
   position: relative;
