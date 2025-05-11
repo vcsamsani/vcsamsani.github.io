@@ -1,4 +1,3 @@
-
 html {
   scroll-behavior: smooth;
 }
@@ -12,6 +11,7 @@ body {
   color: white;
 }
 
+/* === NAVBAR === */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -34,6 +34,7 @@ body {
   font-size: 20px;
 }
 
+/* === HERO SECTION === */
 .hero {
   display: flex;
   flex-direction: row;
@@ -129,6 +130,7 @@ body {
   animation: blink 0.6s infinite;
 }
 
+/* === ABOUT SECTION === */
 .about {
   padding: 0px 60px;
   background: url('images/background.jpg') no-repeat center center fixed;
@@ -175,6 +177,7 @@ body {
   margin-right: -109px;
 }
 
+/* === SKILLS === */
 .skills-icons {
   display: flex;
   justify-content: center;
@@ -215,17 +218,19 @@ body {
   margin: 30px 60px;
 }
 
+/* === TIMELINE SECTION === */
 .timeline-section {
   padding: 120px 60px;
   background: url('images/background.jpg') no-repeat center center fixed;
   background-size: cover;
+  position: relative;
 }
 
 .timeline-container {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
-  height: 1100px;
+  height: 1000px;
 }
 
 .timeline-container::before {
@@ -240,12 +245,59 @@ body {
   opacity: 0.4;
 }
 
+/* === Timeline Independent Items === */
 .timeline-bubble,
 .timeline-icon,
 .timeline-card {
   position: absolute;
 }
 
+/* === UNH === */
+.bubble-unh {
+  top: 30px;
+  left: 38%;
+}
+.icon-unh {
+  top: 70px;
+  left: 49%;
+}
+.card-unh {
+  top: 40px;
+  left: 58%;
+  width: 38%;
+}
+
+/* === ANR === */
+.bubble-anr {
+  top: 250px;
+  left: 52%;
+}
+.icon-anr {
+  top: 290px;
+  left: 49%;
+}
+.card-anr {
+  top: 200px;
+  left: 4%;
+  width: 46%;
+}
+
+/* === AMITY === */
+.bubble-amity {
+  top: 470px;
+  left: 38%;
+}
+.icon-amity {
+  top: 510px;
+  left: 49%;
+}
+.card-amity {
+  top: 490px;
+  left: 58%;
+  width: 38%;
+}
+
+/* === Timeline Element Styling === */
 .timeline-bubble {
   background-color: #eeeeee;
   color: black;
@@ -284,7 +336,6 @@ body {
   color: black;
   font-family: 'Economica', sans-serif;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
-  width: 40%;
 }
 
 .timeline-card h3 {
@@ -306,31 +357,4 @@ body {
 
 .timeline-card ul li {
   margin-bottom: 8px;
-}
-/* === Individual Logo Styles === */
-.logo-unh {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background: white;
-  padding: 4px;
-  object-fit: cover;
-}
-
-.logo-anr {
-  width: 65px;
-  height: 65px;
-  border-radius: 15px;
-  background: white;
-  padding: 5px;
-  object-fit: contain;
-}
-
-.logo-amity {
-  width: 70px;
-  height: 70px;
-  border-radius: 30%;
-  background: white;
-  padding: 6px;
-  object-fit: scale-down;
 }
