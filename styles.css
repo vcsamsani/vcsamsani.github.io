@@ -316,8 +316,8 @@ body {
 }
 
 .timeline-icon {
-  width: 90px;
-  height: 90px;
+  width: 110px;
+  height: 110px;
   background-color: white;
   border-radius: 50%;
   padding: 5px;
@@ -325,14 +325,17 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 3;
-  box-shadow: 0 0 10px rgba(255,255,255,0.2);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  border: 6px solid #FFD700; /* 🌟 Golden border */
 }
 
 .timeline-icon img {
-  width: 60px;
-  height: 60px;
-  object-fit: contain;
+  width: 88%;           /* 🔍 Enlarged */
+  height: 88%;          /* 🔍 Enlarged */
+  object-fit: contain;  /* Maintain aspect ratio */
+  border-radius: 50%;   /* Optional: round the logo inside */
 }
+
 
 .timeline-card {
   background-color: #e4a200;
