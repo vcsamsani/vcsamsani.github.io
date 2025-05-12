@@ -325,15 +325,16 @@ body {
   justify-content: center;
   align-items: center;
   z-index: 3;
-  box-shadow: 0 0 10px rgba(255,255,255,0.2);
-  border: 4px solid #FFD700; /* Optional: golden border */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+  border: 4px solid #FFD700; /* Golden border */
+  overflow: hidden; /* Ensures the image stays within the circle */
 }
 
 .timeline-icon img {
   width: 100%;
   height: 100%;
-  object-fit: cover;  /* Fill the container without distortion */
-  border-radius: 50%;
+  object-fit: cover;  /* Ensures the image fills the circle */
+  transform: scale(1.2); /* Zoom the image */
 }
 
 .timeline-card {
