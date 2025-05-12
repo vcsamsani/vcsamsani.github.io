@@ -267,7 +267,7 @@ body {
   left: 45.8%;
 }
 .card-unh {
-  top: 58px;
+  top: 47px;
   left: 59%;
   width: 30%;
 }
@@ -282,7 +282,7 @@ body {
   left: 45.8%;
 }
 .card-anr {
-  top: 309px;
+  top: 302px;
   left: 80px;
   width: 30%;
 }
@@ -297,7 +297,7 @@ body {
   left: 45.8%;
 }
 .card-amity {
-  top: 656px;
+  top: 648px;
   left: 59%;
   width: 30%;
 }
@@ -351,7 +351,7 @@ body {
   font-size: 24px;
   letter-spacing: 2px;
   margin-bottom: 6px;   /* ⬅️ Reduce space below heading */
-  margin-top: 0;        /* ⬅️ Ensure no top margin */
+  margin-top: 20px;        /* ⬅️ Ensure no top margin */
 }
 
 .timeline-card .small {
