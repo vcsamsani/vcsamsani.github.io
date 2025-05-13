@@ -362,3 +362,68 @@ body {
   object-fit: cover;
   transform: scale(1.7) translateY(3px);
 }
+
+.on-campus-section {
+  padding: 60px;
+  background: url('images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.on-campus-heading {
+  margin-left: 0;
+  text-align: center;
+  font-size: 50px;
+}
+
+.on-campus-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+.campus-card {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-family: 'Economica', sans-serif;
+}
+
+.campus-logo {
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+  border-radius: 20px;
+  border: 4px solid #FFD700;
+  padding: 6px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.campus-role {
+  font-size: 22px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.campus-org {
+  font-size: 16px;
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+
+.campus-description {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 15.5px;
+  line-height: 1.8;
+  text-align: justify;
+  backdrop-filter: blur(2px);
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+}
