@@ -369,12 +369,6 @@ body {
   background-size: cover;
 }
 
-.on-campus-heading {
-  margin-left: 0;
-  text-align: center;
-  font-size: 50px;
-}
-
 .on-campus-container {
   display: flex;
   justify-content: center;
