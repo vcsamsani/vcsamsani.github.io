@@ -146,7 +146,7 @@ body {
   -webkit-text-stroke: 2px white;
   color: transparent;
   margin-bottom: 30px;
-  margin-top: 60px;
+  margin-top: 0px;
   text-align: left;
   margin-left: 60px;
 }
@@ -160,7 +160,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: -16px 60px 152px;
+  margin: -16px 60px -14px;
   gap: 340px;
 }
 
@@ -228,12 +228,14 @@ body {
   background: url('images/background.jpg') no-repeat center center fixed;
   background-size: cover;
   position: relative;
+  padding-bottom: 0px;
 }
 
 .timeline-container {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
+  margin-bottom: 0px;
   height: 1000px;
 }
 
@@ -365,6 +367,7 @@ body {
 
 .on-campus-section {
   padding: 60px;
+  padding-top: 0px;
   background: url('images/background.jpg') no-repeat center center fixed;
   background-size: cover;
 }
