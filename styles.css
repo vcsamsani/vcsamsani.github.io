@@ -477,7 +477,7 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 110px;
 }
 
 .resume-block {
@@ -510,20 +510,21 @@ body {
 
 .contact-title {
   font-family: 'Space Mono', monospace;
-  font-size: 36px;
+  font-size: 45px;
   -webkit-text-stroke: 1px white;
   color: transparent;
   letter-spacing: 3px;
-  margin-bottom: 30px;
+  margin-bottom: 108px;
+  margin-top: -31px;
 }
 
 .contact-details p {
   font-family: 'Economica', sans-serif;
-  font-size: 20px;
-  margin: 14px 0;
+  font-size: 25px;
+  margin: 41px 0;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 53px;
 }
 
 .icon {
