@@ -463,3 +463,74 @@ body {
   object-fit: cover;
   border-radius: 21px;
 }
+
+/* === CONTACT SECTION === */
+.contact-section {
+  padding: 120px 60px;
+  background: url('images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.resume-block {
+  flex: 1;
+  text-align: center;
+}
+
+.resume-icon {
+  width: 220px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.resume-icon:hover {
+  transform: scale(1.05);
+}
+
+.download-text {
+  margin-top: 20px;
+  font-family: 'Economica', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 1.4;
+}
+
+.contact-info {
+  flex: 1;
+  text-align: left;
+}
+
+.contact-title {
+  font-family: 'Space Mono', monospace;
+  font-size: 36px;
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
+
+.contact-details p {
+  font-family: 'Economica', sans-serif;
+  font-size: 20px;
+  margin: 14px 0;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  vertical-align: middle;
+  border-radius: 6px;
+}
+
